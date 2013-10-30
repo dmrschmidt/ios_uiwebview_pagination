@@ -10,6 +10,7 @@
 
 @interface MLViewController ()
 
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 @end
 
 @implementation MLViewController
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"untitled" ofType:@"html"];
+    NSData *htmlData = [NSData dataWithContentsOfFile:filePath];
+        [self.webView loadData:htmlData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:nil];
+    
+    self.webView.scrollView.pagingEnabled = YES;
+    self.webView.scrollView.alwaysBounceVertical = NO;
+    self.webView.scrollView.alwaysBounceHorizontal = YES;
+    self.webView.scrollView.bounces = YES;
 }
 
 - (void)didReceiveMemoryWarning
