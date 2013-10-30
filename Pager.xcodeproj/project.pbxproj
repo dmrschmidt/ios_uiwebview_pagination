@@ -22,7 +22,7 @@
 		429B90CE1820C30700C2E2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429B90AD1820C30600C2E2F9 /* UIKit.framework */; };
 		429B90D61820C30700C2E2F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 429B90D41820C30700C2E2F9 /* InfoPlist.strings */; };
 		429B90D81820C30700C2E2F9 /* PagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B90D71820C30700C2E2F9 /* PagerTests.m */; };
-		429B90E21820C36C00C2E2F9 /* untitled.html in Resources */ = {isa = PBXBuildFile; fileRef = 429B90E11820C36C00C2E2F9 /* untitled.html */; };
+		429B90E41820D49F00C2E2F9 /* untitled.html in Resources */ = {isa = PBXBuildFile; fileRef = 429B90E31820D49F00C2E2F9 /* untitled.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		429B90D31820C30700C2E2F9 /* PagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagerTests-Info.plist"; sourceTree = "<group>"; };
 		429B90D51820C30700C2E2F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		429B90D71820C30700C2E2F9 /* PagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerTests.m; sourceTree = "<group>"; };
-		429B90E11820C36C00C2E2F9 /* untitled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = untitled.html; path = ../../../../Desktop/untitled.html; sourceTree = "<group>"; };
+		429B90E31820D49F00C2E2F9 /* untitled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = untitled.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		429B90AF1820C30600C2E2F9 /* Pager */ = {
 			isa = PBXGroup;
 			children = (
-				429B90E11820C36C00C2E2F9 /* untitled.html */,
+				429B90E31820D49F00C2E2F9 /* untitled.html */,
 				429B90B81820C30600C2E2F9 /* MLAppDelegate.h */,
 				429B90B91820C30600C2E2F9 /* MLAppDelegate.m */,
 				429B90BB1820C30600C2E2F9 /* Main_iPhone.storyboard */,
@@ -238,7 +238,7 @@
 				429B90C01820C30600C2E2F9 /* Main_iPad.storyboard in Resources */,
 				429B90C51820C30600C2E2F9 /* Images.xcassets in Resources */,
 				429B90BD1820C30600C2E2F9 /* Main_iPhone.storyboard in Resources */,
-				429B90E21820C36C00C2E2F9 /* untitled.html in Resources */,
+				429B90E41820D49F00C2E2F9 /* untitled.html in Resources */,
 				429B90B41820C30600C2E2F9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
